@@ -61,10 +61,10 @@
         margin:110px;
         
       }     
-     @media screen and (max-width: 599px){  /*media query*/
+     @media screen and (min-width: 599px){  /*media query*/
           li.logo a {
-             top:380px;
-             left:-20px;
+             top:100px;
+             left:370px;
           }
         }     
          @media screen and (max-width: 500px){
@@ -111,6 +111,11 @@
         box-shadow: gray 0px 0px 10px;
      
     
+      }
+      .pics figure figcaption{
+        position: relative;
+        top:-30px;
+        text-indent: -100000px;
       }
 
       li:first-child{
