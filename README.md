@@ -1,2 +1,2 @@
 # Portfolio
-self Explanitory 
+self explanatory
