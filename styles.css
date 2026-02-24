@@ -48,16 +48,17 @@
 
       li.logo a{
         background-image:url("pictures/myimg.png");
-        background-size:200px;/*applys to the width, height auto*/
-        width:250px;
+        background-size:180px;
+        width:180px;
         background-repeat: no-repeat;
         display:inline-block;
         height:150px;
-        text-indent: -1000000000px;
+        text-indent: -100000px;
         position: relative; /*allow move*/
         top:200px;
-        left: -480px;
+        left: 1000px;
         border-radius: 20%;
+        margin:110px;
         
       }     
      @media screen and (max-width: 599px){  /*media query*/
