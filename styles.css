@@ -1,0 +1,134 @@
+    
+    body{
+            background: rgb(255, 199, 199);
+            font-size: medium;
+            margin:0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            
+            
+        }
+        header{
+            font-size: large;
+            color:rgb(225, 225, 225);
+            background:black;
+            margin:0px 0px 50px 0px;
+            padding: 20px;
+            text-align: center;
+            min-height:300px;
+            width:100%;
+            background-repeat:no-repeat ;
+            background-image:url("pictures/back.png");
+            background-size: cover;
+          
+        }
+      
+     
+   
+        ul{
+            display:flex;
+         list-style-type: none;
+            margin:0;
+            padding:10;
+           
+        }
+      
+         li{
+          list-style-type: none;
+            border-radius: 6px;
+            margin-left:100px ;
+            height: 21px;
+        }
+
+      a{
+        color:rgb(255, 255, 255);
+        text-decoration: none;
+
+      }
+
+      li.logo a{
+        background-image:url("pictures/myimg.png");
+        background-size:200px;/*applys to the width, height auto*/
+        width:250px;
+        background-repeat: no-repeat;
+        display:inline-block;
+        height:150px;
+        text-indent: -1000000000px;
+        position: relative; /*allow move*/
+        top:200px;
+        left: -480px;
+        border-radius: 20%;
+        
+      }     
+     @media screen and (max-width: 599px){  /*media query*/
+          li.logo a {
+             top:380px;
+             left:-20px;
+          }
+        }     
+         @media screen and (max-width: 500px){
+          li.logo a {
+             top:380px;
+             left:-100px;
+          }
+        } 
+
+          @media screen and (max-width: 430px){
+          li.logo a {
+             top:100px;
+             left:-350px;
+          }
+        }   
+      
+     
+  
+       
+
+.pics{
+    background-color: rgb(255, 199, 199);
+    min-height: 350px;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+
+}
+
+    .pics figure {
+        background-color: rgb(255, 199, 199);
+        color: rgb(0, 0, 0);
+        width:100%;
+        max-width:300px;
+        margin:auto;
+        text-align: center;
+       text-transform: uppercase;
+    }
+      .pics figure img{
+        border:1px solid rgb(247, 205, 205);
+       width:100%;
+        height:auto;
+        border-radius: 50%;
+        box-shadow: gray 0px 0px 10px;
+     
+    
+      }
+
+      li:first-child{
+        margin-left:-50px;
+    
+      }
+      /*first start with mobile media*/
+
+ 
+    
+
+
+         footer{
+          
+         background: rgb(5, 61, 88);
+         color:rgb(247, 116, 116);
+         padding:30px;
+         margin-top:100px;
+          margin-left:-25px ;
+          width:100%;
+
+        }
